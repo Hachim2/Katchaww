@@ -9,6 +9,7 @@ int main(void){
 
     allegro_init();
     install_keyboard();
+    install_mouse();
     install_timer();
 
     set_color_depth(32);
@@ -26,6 +27,7 @@ int main(void){
                       SCREEN_W / 2, 220, makecol(200, 220, 255), -1);
     textout_centre_ex(screen, font, "Press ESC to quit.", SCREEN_W / 2, 300,
                       makecol(255, 214, 102), -1);
+    show_mouse(screen);
 
     while (running) {
         if (key[KEY_ESC]) {

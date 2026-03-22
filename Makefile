@@ -1,7 +1,7 @@
 CC ?= gcc
 SRC := scr/main.c
 BIN_DIR := bin
-THIRD_PARTY_DIR := third_party/allegro4
+ALLEGRO_SOURCE_DIR := third_party/allegro4
 BUILD_DIR := build/allegro4-x11-arm64
 
 UNAME_S := $(shell uname -s 2>/dev/null)
@@ -34,18 +34,21 @@ else
     LDLIBS += $(shell $(ALLEGRO_CONFIG) --libs)
 endif
 
-.PHONY: all run clean
+.PHONY: all deps run clean
 
 all: $(TARGET)
+
+deps:
 
 $(TARGET): $(SRC) | $(BIN_DIR)
 	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS) $(LDLIBS)
 
 ifeq ($(PLATFORM),macos)
 $(TARGET): $(ALLEGRO_CONFIG)
+deps: $(ALLEGRO_CONFIG)
 
-$(ALLEGRO_CONFIG): $(THIRD_PARTY_DIR)/CMakeLists.txt
-	cmake -S $(THIRD_PARTY_DIR) -B $(BUILD_DIR) \
+$(ALLEGRO_CONFIG): $(ALLEGRO_SOURCE_DIR)/CMakeLists.txt
+	cmake -S $(ALLEGRO_SOURCE_DIR) -B $(BUILD_DIR) \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_OSX_ARCHITECTURES=arm64 \
 		-DCMAKE_INSTALL_PREFIX=$(ALLEGRO_DIR) \

@@ -2,3 +2,4 @@ bin/
 out/
 build/
 lib/allegro4/
+third_party/.allegro4-git/
