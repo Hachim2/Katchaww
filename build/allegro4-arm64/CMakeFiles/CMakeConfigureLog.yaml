@@ -1,0 +1,1450 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      The system is: Darwin - 25.3.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      cc: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/3.31.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      c++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/3.31.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:46 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-03mxJT"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-03mxJT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-03mxJT'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c1f41/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c1f41.dir/build.make CMakeFiles/cmTC_c1f41.dir/build
+        Building C object CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 17.0.0 (clang-1700.6.4.2)
+        Target: arm64-apple-darwin25.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        cc: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-03mxJT -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-03mxJT -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target x86_64-apple-darwin25.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_c1f41
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1f41.dir/link.txt --verbose=1
+        Apple clang version 17.0.0 (clang-1700.6.4.2)
+        Target: arm64-apple-darwin25.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c1f41 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1230.1
+        BUILD 10:12:58 Jan  9 2026
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o -o cmTC_c1f41
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : "arm64"
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-03mxJT']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c1f41/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c1f41.dir/build.make CMakeFiles/cmTC_c1f41.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
+        ignore line: [Target: arm64-apple-darwin25.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [cc: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-03mxJT -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-03mxJT -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target x86_64-apple-darwin25.3.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_c1f41]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1f41.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
+        ignore line: [Target: arm64-apple-darwin25.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c1f41 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [26.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c1f41] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c1f41.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Running the C compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1230.1
+      BUILD 10:12:58 Jan  9 2026
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:46 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P4uoV0"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P4uoV0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P4uoV0'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e0618/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e0618.dir/build.make CMakeFiles/cmTC_e0618.dir/build
+        Building CXX object CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 17.0.0 (clang-1700.6.4.2)
+        Target: arm64-apple-darwin25.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        c++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P4uoV0 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P4uoV0 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target x86_64-apple-darwin25.3.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_e0618
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0618.dir/link.txt --verbose=1
+        Apple clang version 17.0.0 (clang-1700.6.4.2)
+        Target: arm64-apple-darwin25.3.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e0618 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1230.1
+        BUILD 10:12:58 Jan  9 2026
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e0618
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : "arm64"
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P4uoV0']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e0618/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e0618.dir/build.make CMakeFiles/cmTC_e0618.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
+        ignore line: [Target: arm64-apple-darwin25.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [c++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P4uoV0 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P4uoV0 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target x86_64-apple-darwin25.3.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_e0618]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0618.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
+        ignore line: [Target: arm64-apple-darwin25.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e0618 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [26.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e0618] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_e0618.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:46 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1230.1
+      BUILD 10:12:58 Jan  9 2026
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:136 (check_include_files)"
+    checks:
+      - "Looking for include file dirent.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-DbJE7R"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-DbJE7R"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_DIRENT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-DbJE7R'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50e74/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_50e74.dir/build.make CMakeFiles/cmTC_50e74.dir/build
+        Building C object CMakeFiles/cmTC_50e74.dir/ALLEGRO_HAVE_DIRENT_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_50e74.dir/ALLEGRO_HAVE_DIRENT_H.c.o -MF CMakeFiles/cmTC_50e74.dir/ALLEGRO_HAVE_DIRENT_H.c.o.d -o CMakeFiles/cmTC_50e74.dir/ALLEGRO_HAVE_DIRENT_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-DbJE7R/ALLEGRO_HAVE_DIRENT_H.c
+        Linking C executable cmTC_50e74
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50e74.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_50e74.dir/ALLEGRO_HAVE_DIRENT_H.c.o -o cmTC_50e74
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:137 (check_include_files)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-zKHJDj"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-zKHJDj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-zKHJDj'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_70da4/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_70da4.dir/build.make CMakeFiles/cmTC_70da4.dir/build
+        Building C object CMakeFiles/cmTC_70da4.dir/ALLEGRO_HAVE_INTTYPES_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_70da4.dir/ALLEGRO_HAVE_INTTYPES_H.c.o -MF CMakeFiles/cmTC_70da4.dir/ALLEGRO_HAVE_INTTYPES_H.c.o.d -o CMakeFiles/cmTC_70da4.dir/ALLEGRO_HAVE_INTTYPES_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-zKHJDj/ALLEGRO_HAVE_INTTYPES_H.c
+        Linking C executable cmTC_70da4
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70da4.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_70da4.dir/ALLEGRO_HAVE_INTTYPES_H.c.o -o cmTC_70da4
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:139 (check_include_files)"
+    checks:
+      - "Looking for include file linux/awe_voice.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-d8BziX"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-d8BziX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_LINUX_AWE_VOICE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-d8BziX'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3d719/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3d719.dir/build.make CMakeFiles/cmTC_3d719.dir/build
+        Building C object CMakeFiles/cmTC_3d719.dir/ALLEGRO_HAVE_LINUX_AWE_VOICE_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_3d719.dir/ALLEGRO_HAVE_LINUX_AWE_VOICE_H.c.o -MF CMakeFiles/cmTC_3d719.dir/ALLEGRO_HAVE_LINUX_AWE_VOICE_H.c.o.d -o CMakeFiles/cmTC_3d719.dir/ALLEGRO_HAVE_LINUX_AWE_VOICE_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-d8BziX/ALLEGRO_HAVE_LINUX_AWE_VOICE_H.c
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-d8BziX/ALLEGRO_HAVE_LINUX_AWE_VOICE_H.c:2:10: fatal error: 'linux/awe_voice.h' file not found
+            2 | #include <linux/awe_voice.h>
+              |          ^~~~~~~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_3d719.dir/ALLEGRO_HAVE_LINUX_AWE_VOICE_H.c.o] Error 1
+        make: *** [cmTC_3d719/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:140 (check_include_files)"
+    checks:
+      - "Looking for include file linux/input.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P8C5kM"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P8C5kM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_LINUX_INPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P8C5kM'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bdb75/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bdb75.dir/build.make CMakeFiles/cmTC_bdb75.dir/build
+        Building C object CMakeFiles/cmTC_bdb75.dir/ALLEGRO_HAVE_LINUX_INPUT_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_bdb75.dir/ALLEGRO_HAVE_LINUX_INPUT_H.c.o -MF CMakeFiles/cmTC_bdb75.dir/ALLEGRO_HAVE_LINUX_INPUT_H.c.o.d -o CMakeFiles/cmTC_bdb75.dir/ALLEGRO_HAVE_LINUX_INPUT_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P8C5kM/ALLEGRO_HAVE_LINUX_INPUT_H.c
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-P8C5kM/ALLEGRO_HAVE_LINUX_INPUT_H.c:2:10: fatal error: 'linux/input.h' file not found
+            2 | #include <linux/input.h>
+              |          ^~~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_bdb75.dir/ALLEGRO_HAVE_LINUX_INPUT_H.c.o] Error 1
+        make: *** [cmTC_bdb75/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:143 (check_include_files)"
+    checks:
+      - "Looking for include files sys/types.h, linux/joystick.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-4bJkVw"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-4bJkVw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_LINUX_JOYSTICK_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-4bJkVw'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4bd0e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4bd0e.dir/build.make CMakeFiles/cmTC_4bd0e.dir/build
+        Building C object CMakeFiles/cmTC_4bd0e.dir/ALLEGRO_HAVE_LINUX_JOYSTICK_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_4bd0e.dir/ALLEGRO_HAVE_LINUX_JOYSTICK_H.c.o -MF CMakeFiles/cmTC_4bd0e.dir/ALLEGRO_HAVE_LINUX_JOYSTICK_H.c.o.d -o CMakeFiles/cmTC_4bd0e.dir/ALLEGRO_HAVE_LINUX_JOYSTICK_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-4bJkVw/ALLEGRO_HAVE_LINUX_JOYSTICK_H.c
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-4bJkVw/ALLEGRO_HAVE_LINUX_JOYSTICK_H.c:3:10: fatal error: 'linux/joystick.h' file not found
+            3 | #include <linux/joystick.h>
+              |          ^~~~~~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_4bd0e.dir/ALLEGRO_HAVE_LINUX_JOYSTICK_H.c.o] Error 1
+        make: *** [cmTC_4bd0e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:144 (check_include_files)"
+    checks:
+      - "Looking for include file linux/soundcard.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-AJzpnq"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-AJzpnq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_LINUX_SOUNDCARD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-AJzpnq'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2be59/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2be59.dir/build.make CMakeFiles/cmTC_2be59.dir/build
+        Building C object CMakeFiles/cmTC_2be59.dir/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_2be59.dir/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c.o -MF CMakeFiles/cmTC_2be59.dir/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c.o.d -o CMakeFiles/cmTC_2be59.dir/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-AJzpnq/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-AJzpnq/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c:2:10: fatal error: 'linux/soundcard.h' file not found
+            2 | #include <linux/soundcard.h>
+              |          ^~~~~~~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_2be59.dir/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c.o] Error 1
+        make: *** [cmTC_2be59/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:145 (check_include_files)"
+    checks:
+      - "Looking for include file machine/soundcard.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-nDeHhZ"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-nDeHhZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_MACHINE_SOUNDCARD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-nDeHhZ'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_694f4/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_694f4.dir/build.make CMakeFiles/cmTC_694f4.dir/build
+        Building C object CMakeFiles/cmTC_694f4.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_694f4.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o -MF CMakeFiles/cmTC_694f4.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o.d -o CMakeFiles/cmTC_694f4.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-nDeHhZ/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-nDeHhZ/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c:2:10: fatal error: 'machine/soundcard.h' file not found
+            2 | #include <machine/soundcard.h>
+              |          ^~~~~~~~~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_694f4.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o] Error 1
+        make: *** [cmTC_694f4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:146 (check_include_files)"
+    checks:
+      - "Looking for include file soundcard.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-cRDHLN"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-cRDHLN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_SOUNDCARD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-cRDHLN'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3ce06/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3ce06.dir/build.make CMakeFiles/cmTC_3ce06.dir/build
+        Building C object CMakeFiles/cmTC_3ce06.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_3ce06.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o -MF CMakeFiles/cmTC_3ce06.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o.d -o CMakeFiles/cmTC_3ce06.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-cRDHLN/ALLEGRO_HAVE_SOUNDCARD_H.c
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-cRDHLN/ALLEGRO_HAVE_SOUNDCARD_H.c:2:10: fatal error: 'soundcard.h' file not found
+            2 | #include <soundcard.h>
+              |          ^~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_3ce06.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o] Error 1
+        make: *** [cmTC_3ce06/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:147 (check_include_files)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-6mDWEt"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-6mDWEt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-6mDWEt'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_11db5/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_11db5.dir/build.make CMakeFiles/cmTC_11db5.dir/build
+        Building C object CMakeFiles/cmTC_11db5.dir/ALLEGRO_HAVE_STDINT_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_11db5.dir/ALLEGRO_HAVE_STDINT_H.c.o -MF CMakeFiles/cmTC_11db5.dir/ALLEGRO_HAVE_STDINT_H.c.o.d -o CMakeFiles/cmTC_11db5.dir/ALLEGRO_HAVE_STDINT_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-6mDWEt/ALLEGRO_HAVE_STDINT_H.c
+        Linking C executable cmTC_11db5
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11db5.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_11db5.dir/ALLEGRO_HAVE_STDINT_H.c.o -o cmTC_11db5
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:148 (check_include_files)"
+    checks:
+      - "Looking for include file sys/io.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-fN0IkC"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-fN0IkC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_SYS_IO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-fN0IkC'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c81b2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c81b2.dir/build.make CMakeFiles/cmTC_c81b2.dir/build
+        Building C object CMakeFiles/cmTC_c81b2.dir/ALLEGRO_HAVE_SYS_IO_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_c81b2.dir/ALLEGRO_HAVE_SYS_IO_H.c.o -MF CMakeFiles/cmTC_c81b2.dir/ALLEGRO_HAVE_SYS_IO_H.c.o.d -o CMakeFiles/cmTC_c81b2.dir/ALLEGRO_HAVE_SYS_IO_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-fN0IkC/ALLEGRO_HAVE_SYS_IO_H.c
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-fN0IkC/ALLEGRO_HAVE_SYS_IO_H.c:2:10: fatal error: 'sys/io.h' file not found
+            2 | #include <sys/io.h>
+              |          ^~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_c81b2.dir/ALLEGRO_HAVE_SYS_IO_H.c.o] Error 1
+        make: *** [cmTC_c81b2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:149 (check_include_files)"
+    checks:
+      - "Looking for include file sys/stat.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-o97e8m"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-o97e8m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-o97e8m'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c04cf/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c04cf.dir/build.make CMakeFiles/cmTC_c04cf.dir/build
+        Building C object CMakeFiles/cmTC_c04cf.dir/ALLEGRO_HAVE_SYS_STAT_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_c04cf.dir/ALLEGRO_HAVE_SYS_STAT_H.c.o -MF CMakeFiles/cmTC_c04cf.dir/ALLEGRO_HAVE_SYS_STAT_H.c.o.d -o CMakeFiles/cmTC_c04cf.dir/ALLEGRO_HAVE_SYS_STAT_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-o97e8m/ALLEGRO_HAVE_SYS_STAT_H.c
+        Linking C executable cmTC_c04cf
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c04cf.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c04cf.dir/ALLEGRO_HAVE_SYS_STAT_H.c.o -o cmTC_c04cf
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:150 (check_include_files)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LYJp6e"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LYJp6e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LYJp6e'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e31e9/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e31e9.dir/build.make CMakeFiles/cmTC_e31e9.dir/build
+        Building C object CMakeFiles/cmTC_e31e9.dir/ALLEGRO_HAVE_SYS_TIME_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_e31e9.dir/ALLEGRO_HAVE_SYS_TIME_H.c.o -MF CMakeFiles/cmTC_e31e9.dir/ALLEGRO_HAVE_SYS_TIME_H.c.o.d -o CMakeFiles/cmTC_e31e9.dir/ALLEGRO_HAVE_SYS_TIME_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LYJp6e/ALLEGRO_HAVE_SYS_TIME_H.c
+        Linking C executable cmTC_e31e9
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e31e9.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e31e9.dir/ALLEGRO_HAVE_SYS_TIME_H.c.o -o cmTC_e31e9
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:151 (check_include_files)"
+    checks:
+      - "Looking for include file sys/soundcard.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-rDgjFP"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-rDgjFP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_SYS_SOUNDCARD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-rDgjFP'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_83a8b/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_83a8b.dir/build.make CMakeFiles/cmTC_83a8b.dir/build
+        Building C object CMakeFiles/cmTC_83a8b.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_83a8b.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o -MF CMakeFiles/cmTC_83a8b.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o.d -o CMakeFiles/cmTC_83a8b.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-rDgjFP/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-rDgjFP/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c:2:10: fatal error: 'sys/soundcard.h' file not found
+            2 | #include <sys/soundcard.h>
+              |          ^~~~~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_83a8b.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o] Error 1
+        make: *** [cmTC_83a8b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:152 (check_include_files)"
+    checks:
+      - "Looking for include file sys/utsname.h"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LKTIYG"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LKTIYG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_SYS_UTSNAME_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LKTIYG'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_59be5/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_59be5.dir/build.make CMakeFiles/cmTC_59be5.dir/build
+        Building C object CMakeFiles/cmTC_59be5.dir/ALLEGRO_HAVE_SYS_UTSNAME_H.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_59be5.dir/ALLEGRO_HAVE_SYS_UTSNAME_H.c.o -MF CMakeFiles/cmTC_59be5.dir/ALLEGRO_HAVE_SYS_UTSNAME_H.c.o.d -o CMakeFiles/cmTC_59be5.dir/ALLEGRO_HAVE_SYS_UTSNAME_H.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LKTIYG/ALLEGRO_HAVE_SYS_UTSNAME_H.c
+        Linking C executable cmTC_59be5
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59be5.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_59be5.dir/ALLEGRO_HAVE_SYS_UTSNAME_H.c.o -o cmTC_59be5
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:154 (check_function_exists)"
+    checks:
+      - "Looking for getexecname"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-yJzMHD"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-yJzMHD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_GETEXECNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-yJzMHD'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ba441/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ba441.dir/build.make CMakeFiles/cmTC_ba441.dir/build
+        Building C object CMakeFiles/cmTC_ba441.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getexecname -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_ba441.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ba441.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ba441.dir/CheckFunctionExists.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-yJzMHD/CheckFunctionExists.c
+        Linking C executable cmTC_ba441
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba441.dir/link.txt --verbose=1
+        Undefined symbols for architecture arm64:
+          "_getexecname", referenced from:
+              _main in CheckFunctionExists.c.o
+        ld: symbol(s) not found for architecture arm64
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getexecname -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ba441.dir/CheckFunctionExists.c.o -o cmTC_ba441
+        make[1]: *** [cmTC_ba441] Error 1
+        make: *** [cmTC_ba441/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:155 (check_function_exists)"
+    checks:
+      - "Looking for memcmp"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-1MnO69"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-1MnO69"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_MEMCMP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-1MnO69'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a0a56/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a0a56.dir/build.make CMakeFiles/cmTC_a0a56.dir/build
+        Building C object CMakeFiles/cmTC_a0a56.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memcmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_a0a56.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a0a56.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a0a56.dir/CheckFunctionExists.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-1MnO69/CheckFunctionExists.c
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-1MnO69/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcmp' [-Wincompatible-library-redeclaration]
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+            1 | #define CHECK_FUNCTION_EXISTS memcmp
+              |                               ^
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-1MnO69/CheckFunctionExists.c:7:3: note: 'memcmp' is a builtin with type 'int (const void *, const void *, unsigned long)'
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+            1 | #define CHECK_FUNCTION_EXISTS memcmp
+              |                               ^
+        1 warning generated.
+        Linking C executable cmTC_a0a56
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0a56.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memcmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a0a56.dir/CheckFunctionExists.c.o -o cmTC_a0a56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:156 (check_function_exists)"
+    checks:
+      - "Looking for mkstemp"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-iKWP4R"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-iKWP4R"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_MKSTEMP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-iKWP4R'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7fa1e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7fa1e.dir/build.make CMakeFiles/cmTC_7fa1e.dir/build
+        Building C object CMakeFiles/cmTC_7fa1e.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_7fa1e.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_7fa1e.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_7fa1e.dir/CheckFunctionExists.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-iKWP4R/CheckFunctionExists.c
+        Linking C executable cmTC_7fa1e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fa1e.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=mkstemp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7fa1e.dir/CheckFunctionExists.c.o -o cmTC_7fa1e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:157 (check_function_exists)"
+    checks:
+      - "Looking for mmap"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-Pv9UWk"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-Pv9UWk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_MMAP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-Pv9UWk'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_71f8e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_71f8e.dir/build.make CMakeFiles/cmTC_71f8e.dir/build
+        Building C object CMakeFiles/cmTC_71f8e.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mmap -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_71f8e.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_71f8e.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_71f8e.dir/CheckFunctionExists.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-Pv9UWk/CheckFunctionExists.c
+        Linking C executable cmTC_71f8e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71f8e.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=mmap -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_71f8e.dir/CheckFunctionExists.c.o -o cmTC_71f8e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:158 (check_function_exists)"
+    checks:
+      - "Looking for mprotect"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-QgZ0JU"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-QgZ0JU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_MPROTECT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-QgZ0JU'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_44f8e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_44f8e.dir/build.make CMakeFiles/cmTC_44f8e.dir/build
+        Building C object CMakeFiles/cmTC_44f8e.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mprotect -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_44f8e.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_44f8e.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_44f8e.dir/CheckFunctionExists.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-QgZ0JU/CheckFunctionExists.c
+        Linking C executable cmTC_44f8e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44f8e.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=mprotect -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_44f8e.dir/CheckFunctionExists.c.o -o cmTC_44f8e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:159 (check_function_exists)"
+    checks:
+      - "Looking for sched_yield"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-JgGwGv"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-JgGwGv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_SCHED_YIELD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-JgGwGv'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e98e2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e98e2.dir/build.make CMakeFiles/cmTC_e98e2.dir/build
+        Building C object CMakeFiles/cmTC_e98e2.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sched_yield -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_e98e2.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_e98e2.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_e98e2.dir/CheckFunctionExists.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-JgGwGv/CheckFunctionExists.c
+        Linking C executable cmTC_e98e2
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e98e2.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sched_yield -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e98e2.dir/CheckFunctionExists.c.o -o cmTC_e98e2
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:160 (check_function_exists)"
+    checks:
+      - "Looking for stricmp"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-iMrWGI"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-iMrWGI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_STRICMP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-iMrWGI'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a664a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a664a.dir/build.make CMakeFiles/cmTC_a664a.dir/build
+        Building C object CMakeFiles/cmTC_a664a.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stricmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_a664a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a664a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a664a.dir/CheckFunctionExists.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-iMrWGI/CheckFunctionExists.c
+        Linking C executable cmTC_a664a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a664a.dir/link.txt --verbose=1
+        Undefined symbols for architecture arm64:
+          "_stricmp", referenced from:
+              _main in CheckFunctionExists.c.o
+        ld: symbol(s) not found for architecture arm64
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=stricmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a664a.dir/CheckFunctionExists.c.o -o cmTC_a664a
+        make[1]: *** [cmTC_a664a] Error 1
+        make: *** [cmTC_a664a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:161 (check_function_exists)"
+    checks:
+      - "Looking for strlwr"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-otXJL6"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-otXJL6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_STRLWR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-otXJL6'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e22c6/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e22c6.dir/build.make CMakeFiles/cmTC_e22c6.dir/build
+        Building C object CMakeFiles/cmTC_e22c6.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlwr -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_e22c6.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_e22c6.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_e22c6.dir/CheckFunctionExists.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-otXJL6/CheckFunctionExists.c
+        Linking C executable cmTC_e22c6
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e22c6.dir/link.txt --verbose=1
+        Undefined symbols for architecture arm64:
+          "_strlwr", referenced from:
+              _main in CheckFunctionExists.c.o
+        ld: symbol(s) not found for architecture arm64
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlwr -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e22c6.dir/CheckFunctionExists.c.o -o cmTC_e22c6
+        make[1]: *** [cmTC_e22c6] Error 1
+        make: *** [cmTC_e22c6/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:162 (check_function_exists)"
+    checks:
+      - "Looking for strupr"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-VbaMex"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-VbaMex"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_STRUPR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-VbaMex'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c7ff9/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c7ff9.dir/build.make CMakeFiles/cmTC_c7ff9.dir/build
+        Building C object CMakeFiles/cmTC_c7ff9.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strupr -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_c7ff9.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_c7ff9.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_c7ff9.dir/CheckFunctionExists.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-VbaMex/CheckFunctionExists.c
+        Linking C executable cmTC_c7ff9
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7ff9.dir/link.txt --verbose=1
+        Undefined symbols for architecture arm64:
+          "_strupr", referenced from:
+              _main in CheckFunctionExists.c.o
+        ld: symbol(s) not found for architecture arm64
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strupr -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c7ff9.dir/CheckFunctionExists.c.o -o cmTC_c7ff9
+        make[1]: *** [cmTC_c7ff9] Error 1
+        make: *** [cmTC_c7ff9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:163 (check_function_exists)"
+    checks:
+      - "Looking for sysconf"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-66TC7s"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-66TC7s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_SYSCONF"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-66TC7s'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_10b58/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_10b58.dir/build.make CMakeFiles/cmTC_10b58.dir/build
+        Building C object CMakeFiles/cmTC_10b58.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sysconf -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_10b58.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_10b58.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_10b58.dir/CheckFunctionExists.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-66TC7s/CheckFunctionExists.c
+        Linking C executable cmTC_10b58
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10b58.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sysconf -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_10b58.dir/CheckFunctionExists.c.o -o cmTC_10b58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:165 (check_c_source_compiles)"
+    checks:
+      - "Performing Test ALLEGRO_HAVE_SV_PROCFS_H"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-wd1VIr"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-wd1VIr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_SV_PROCFS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-wd1VIr'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5994f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5994f.dir/build.make CMakeFiles/cmTC_5994f.dir/build
+        Building C object CMakeFiles/cmTC_5994f.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DALLEGRO_HAVE_SV_PROCFS_H  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_5994f.dir/src.c.o -MF CMakeFiles/cmTC_5994f.dir/src.c.o.d -o CMakeFiles/cmTC_5994f.dir/src.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-wd1VIr/src.c
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-wd1VIr/src.c:2:18: fatal error: 'sys/procfs.h' file not found
+            2 |         #include <sys/procfs.h>
+              |                  ^~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_5994f.dir/src.c.o] Error 1
+        make: *** [cmTC_5994f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:175 (check_c_source_compiles)"
+    checks:
+      - "Performing Test ALLEGRO_HAVE_PROCFS_ARGCV"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LMZY6N"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LMZY6N"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_PROCFS_ARGCV"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LMZY6N'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_31ead/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_31ead.dir/build.make CMakeFiles/cmTC_31ead.dir/build
+        Building C object CMakeFiles/cmTC_31ead.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DALLEGRO_HAVE_PROCFS_ARGCV  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_31ead.dir/src.c.o -MF CMakeFiles/cmTC_31ead.dir/src.c.o.d -o CMakeFiles/cmTC_31ead.dir/src.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LMZY6N/src.c
+        /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-LMZY6N/src.c:2:18: fatal error: 'sys/procfs.h' file not found
+            2 |         #include <sys/procfs.h>
+              |                  ^~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_31ead.dir/src.c.o] Error 1
+        make: *** [cmTC_31ead/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:185 (check_c_source_compiles)"
+    checks:
+      - "Performing Test MAP_FAILED_DEFINED"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-gsTVgB"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-gsTVgB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "MAP_FAILED_DEFINED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-gsTVgB'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eaeb4/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_eaeb4.dir/build.make CMakeFiles/cmTC_eaeb4.dir/build
+        Building C object CMakeFiles/cmTC_eaeb4.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DMAP_FAILED_DEFINED  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_eaeb4.dir/src.c.o -MF CMakeFiles/cmTC_eaeb4.dir/src.c.o.d -o CMakeFiles/cmTC_eaeb4.dir/src.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-gsTVgB/src.c
+        Linking C executable cmTC_eaeb4
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaeb4.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eaeb4.dir/src.c.o -o cmTC_eaeb4
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceRuns.cmake:99 (try_run)"
+      - "/usr/local/share/cmake/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "CMakeLists.txt:196 (check_c_source_runs)"
+    checks:
+      - "Performing Test ALLEGRO_USE_CONSTRUCTOR"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-SCAtdX"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-SCAtdX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_USE_CONSTRUCTOR_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-SCAtdX'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5aa23/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5aa23.dir/build.make CMakeFiles/cmTC_5aa23.dir/build
+        Building C object CMakeFiles/cmTC_5aa23.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DALLEGRO_USE_CONSTRUCTOR  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_5aa23.dir/src.c.o -MF CMakeFiles/cmTC_5aa23.dir/src.c.o.d -o CMakeFiles/cmTC_5aa23.dir/src.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-SCAtdX/src.c
+        Linking C executable cmTC_5aa23
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aa23.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5aa23.dir/src.c.o -o cmTC_5aa23
+        
+      exitCode: 0
+    runResult:
+      variable: "ALLEGRO_USE_CONSTRUCTOR_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:205 (check_c_source_compiles)"
+    checks:
+      - "Performing Test ALLEGRO_HAVE_POSIX_MONOTONIC_CLOCK"
+    directories:
+      source: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-VZl4X3"
+      binary: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-VZl4X3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/third_party/allegro4/cmake"
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk"
+    buildResult:
+      variable: "ALLEGRO_HAVE_POSIX_MONOTONIC_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-VZl4X3'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4fb08/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4fb08.dir/build.make CMakeFiles/cmTC_4fb08.dir/build
+        Building C object CMakeFiles/cmTC_4fb08.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DALLEGRO_HAVE_POSIX_MONOTONIC_CLOCK  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -MD -MT CMakeFiles/cmTC_4fb08.dir/src.c.o -MF CMakeFiles/cmTC_4fb08.dir/src.c.o.d -o CMakeFiles/cmTC_4fb08.dir/src.c.o -c /Users/emmanuellefort/Desktop/ECOLE/ECE/Informatique1/projets2/build/allegro4-arm64/CMakeFiles/CMakeScratch/TryCompile-VZl4X3/src.c
+        Linking C executable cmTC_4fb08
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fb08.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4fb08.dir/src.c.o -o cmTC_4fb08
+        
+      exitCode: 0
+...
